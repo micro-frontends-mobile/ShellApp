@@ -8,6 +8,7 @@
 import SwiftUI
 import About
 import Browse
+import RestaurantOrder
 
 struct ContentView: View {
   var body: some View {
@@ -17,7 +18,7 @@ struct ContentView: View {
           Image(systemName: "1.square.fill")
           Text("Restaurant")
         }
-      Text("Surprise me")
+      OrderView(url: URL(string: "https://content.demo.microfrontends.com/restaurants/1.json")!)
         .tabItem {
           Image(systemName: "2.square.fill")
           Text("Surprise me")
