@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "about",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/micro-frontends-mobile/About",
+      "state" : {
+        "branch" : "main",
+        "revision" : "93047def58cb0975775a98da8a7fbef1a7af35e7"
+      }
+    }
+  ],
+  "version" : 2
+}

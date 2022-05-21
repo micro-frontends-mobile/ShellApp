@@ -14,6 +14,7 @@
 		B579F3E52838D1A400B54D4A /* ShellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3E42838D1A400B54D4A /* ShellAppTests.swift */; };
 		B579F3EF2838D1A400B54D4A /* ShellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3EE2838D1A400B54D4A /* ShellAppUITests.swift */; };
 		B579F3F12838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3F02838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift */; };
+		B579F3FF2838D2A700B54D4A /* About in Frameworks */ = {isa = PBXBuildFile; productRef = B579F3FE2838D2A700B54D4A /* About */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B579F3FF2838D2A700B54D4A /* About in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = ShellApp;
+			packageProductDependencies = (
+				B579F3FE2838D2A700B54D4A /* About */,
+			);
 			productName = ShellApp;
 			productReference = B579F3D02838D1A200B54D4A /* ShellApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = B579F3C72838D1A200B54D4A;
+			packageReferences = (
+				B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */,
+			);
 			productRefGroup = B579F3D12838D1A200B54D4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/About";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B579F3FE2838D2A700B54D4A /* About */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */;
+			productName = About;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B579F3C82838D1A200B54D4A /* Project object */;
 }
