@@ -8,6 +8,15 @@
         "branch" : "main",
         "revision" : "93047def58cb0975775a98da8a7fbef1a7af35e7"
       }
+    },
+    {
+      "identity" : "browse",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/micro-frontends-mobile/Browse",
+      "state" : {
+        "revision" : "c686b6519b715ef1b6370180e57eed1e11145951",
+        "version" : "0.1.0"
+      }
     }
   ],
   "version" : 2
