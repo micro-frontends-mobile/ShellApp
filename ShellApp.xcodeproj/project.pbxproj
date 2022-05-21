@@ -16,6 +16,7 @@
 		B579F3F12838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3F02838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift */; };
 		B579F3FF2838D2A700B54D4A /* About in Frameworks */ = {isa = PBXBuildFile; productRef = B579F3FE2838D2A700B54D4A /* About */; };
 		B579F42A2838D97400B54D4A /* Browse in Frameworks */ = {isa = PBXBuildFile; productRef = B579F4292838D97400B54D4A /* Browse */; };
+		B579F4662838DE2F00B54D4A /* RestaurantOrder in Frameworks */ = {isa = PBXBuildFile; productRef = B579F4652838DE2F00B54D4A /* RestaurantOrder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B579F4662838DE2F00B54D4A /* RestaurantOrder in Frameworks */,
 				B579F42A2838D97400B54D4A /* Browse in Frameworks */,
 				B579F3FF2838D2A700B54D4A /* About in Frameworks */,
 			);
@@ -150,6 +152,7 @@
 			packageProductDependencies = (
 				B579F3FE2838D2A700B54D4A /* About */,
 				B579F4292838D97400B54D4A /* Browse */,
+				B579F4652838DE2F00B54D4A /* RestaurantOrder */,
 			);
 			productName = ShellApp;
 			productReference = B579F3D02838D1A200B54D4A /* ShellApp.app */;
@@ -226,6 +229,7 @@
 			packageReferences = (
 				B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */,
 				B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */,
+				B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */,
 			);
 			productRefGroup = B579F3D12838D1A200B54D4A /* Products */;
 			projectDirPath = "";
@@ -613,6 +617,14 @@
 				minimumVersion = 0.1.0;
 			};
 		};
+		B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/RestaurantOrder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -625,6 +637,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */;
 			productName = Browse;
+		};
+		B579F4652838DE2F00B54D4A /* RestaurantOrder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */;
+			productName = RestaurantOrder;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
