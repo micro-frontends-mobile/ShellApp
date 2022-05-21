@@ -7,11 +7,12 @@
 
 import SwiftUI
 import About
+import Browse
 
 struct ContentView: View {
   var body: some View {
     TabView {
-      Text("Restaurant")
+      BrowseView()
         .tabItem {
           Image(systemName: "1.square.fill")
           Text("Restaurant")
