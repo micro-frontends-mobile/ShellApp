@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import About
 
 struct ContentView: View {
   var body: some View {
@@ -20,7 +21,7 @@ struct ContentView: View {
           Image(systemName: "2.square.fill")
           Text("Surprise me")
         }
-      Text("About")
+      AboutView()
         .tabItem {
           Image(systemName: "3.square.fill")
           Text("About")
