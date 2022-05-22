@@ -20,17 +20,17 @@ struct ContentView: View {
     TabView {
       browse
         .tabItem {
-          Image(systemName: "1.square.fill")
+          Image(systemName: "magnifyingglass")
           Text("Restaurant")
         }
       RandomOrderView()
         .tabItem {
-          Image(systemName: "2.square.fill")
+          Image(systemName: "shuffle")
           Text("Surprise me")
         }
       AboutView()
         .tabItem {
-          Image(systemName: "3.square.fill")
+          Image(systemName: "person")
           Text("About")
         }
     }
