@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5007606283A65840088A722 /* Env in Frameworks */ = {isa = PBXBuildFile; productRef = B5007605283A65840088A722 /* Env */; };
 		B579F3D42838D1A200B54D4A /* ShellAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D32838D1A200B54D4A /* ShellAppApp.swift */; };
 		B579F3D62838D1A200B54D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D52838D1A200B54D4A /* ContentView.swift */; };
 		B579F3D82838D1A300B54D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B579F3D72838D1A300B54D4A /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5007606283A65840088A722 /* Env in Frameworks */,
 				B579F4662838DE2F00B54D4A /* RestaurantOrder in Frameworks */,
 				B579F42A2838D97400B54D4A /* Browse in Frameworks */,
 				B579F3FF2838D2A700B54D4A /* About in Frameworks */,
@@ -153,6 +155,7 @@
 				B579F3FE2838D2A700B54D4A /* About */,
 				B579F4292838D97400B54D4A /* Browse */,
 				B579F4652838DE2F00B54D4A /* RestaurantOrder */,
+				B5007605283A65840088A722 /* Env */,
 			);
 			productName = ShellApp;
 			productReference = B579F3D02838D1A200B54D4A /* ShellApp.app */;
@@ -230,6 +233,7 @@
 				B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */,
 				B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */,
 				B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */,
+				B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */,
 			);
 			productRefGroup = B579F3D12838D1A200B54D4A /* Products */;
 			projectDirPath = "";
@@ -601,6 +605,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/Env";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 		B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/micro-frontends-mobile/About";
@@ -628,6 +640,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B5007605283A65840088A722 /* Env */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */;
+			productName = Env;
+		};
 		B579F3FE2838D2A700B54D4A /* About */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */;

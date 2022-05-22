@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "env",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/micro-frontends-mobile/Env",
+      "state" : {
+        "revision" : "ddcad3169eecfefb361a0a90d57a86f973806f38",
+        "version" : "0.2.0"
+      }
+    },
+    {
       "identity" : "restaurantorder",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/RestaurantOrder",
