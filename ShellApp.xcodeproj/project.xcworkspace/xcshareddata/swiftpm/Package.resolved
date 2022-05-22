@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/Env",
       "state" : {
-        "revision" : "ddcad3169eecfefb361a0a90d57a86f973806f38",
-        "version" : "0.2.0"
+        "revision" : "ba27f79fa0a15202592282c0cd7d720b1802cf58",
+        "version" : "0.2.1"
       }
     },
     {

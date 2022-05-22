@@ -9,11 +9,16 @@ import SwiftUI
 import About
 import Browse
 import RestaurantOrder
+import Env
 
 struct ContentView: View {
+
+  init() {
+    _ = Env.initialize(router: AppRouter() as Router)
+  }
   var body: some View {
     TabView {
-      BrowseView()
+      browse
         .tabItem {
           Image(systemName: "1.square.fill")
           Text("Restaurant")
@@ -28,6 +33,15 @@ struct ContentView: View {
           Image(systemName: "3.square.fill")
           Text("About")
         }
+    }
+  }
+
+  var browse: some View {
+    NavigationView {
+      BrowseView()
+        .foregroundColor(.primary)
+        .navigationBarHidden(true)
+        .environmentObject(Env.shared)
     }
   }
 }

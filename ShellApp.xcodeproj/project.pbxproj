@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5007606283A65840088A722 /* Env in Frameworks */ = {isa = PBXBuildFile; productRef = B5007605283A65840088A722 /* Env */; };
+		B5007608283A669B0088A722 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5007607283A669B0088A722 /* AppRouter.swift */; };
 		B579F3D42838D1A200B54D4A /* ShellAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D32838D1A200B54D4A /* ShellAppApp.swift */; };
 		B579F3D62838D1A200B54D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D52838D1A200B54D4A /* ContentView.swift */; };
 		B579F3D82838D1A300B54D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B579F3D72838D1A300B54D4A /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5007607283A669B0088A722 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		B579F3D02838D1A200B54D4A /* ShellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B579F3D32838D1A200B54D4A /* ShellAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellAppApp.swift; sourceTree = "<group>"; };
 		B579F3D52838D1A200B54D4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				B579F3D52838D1A200B54D4A /* ContentView.swift */,
 				B579F3D72838D1A300B54D4A /* Assets.xcassets */,
 				B579F3D92838D1A300B54D4A /* Preview Content */,
+				B5007607283A669B0088A722 /* AppRouter.swift */,
 			);
 			path = ShellApp;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				B579F3D62838D1A200B54D4A /* ContentView.swift in Sources */,
 				B579F3D42838D1A200B54D4A /* ShellAppApp.swift in Sources */,
+				B5007608283A669B0088A722 /* AppRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
