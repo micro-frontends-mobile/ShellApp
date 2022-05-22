@@ -23,7 +23,7 @@ struct ContentView: View {
           Image(systemName: "1.square.fill")
           Text("Restaurant")
         }
-      OrderView(url: URL(string: "https://content.demo.microfrontends.com/restaurants/1.json")!)
+      RandomOrderView()
         .tabItem {
           Image(systemName: "2.square.fill")
           Text("Surprise me")

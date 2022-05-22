@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/RestaurantOrder",
       "state" : {
-        "revision" : "a4c349127efcc390b8dd25f7414838274e1b6ef1",
-        "version" : "0.1.0"
+        "revision" : "c06d28427b5c6c9f22c1f3be720a3b64c5838435",
+        "version" : "0.2.0"
       }
     }
   ],
