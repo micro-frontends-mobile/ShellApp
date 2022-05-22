@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/Browse",
       "state" : {
-        "revision" : "c686b6519b715ef1b6370180e57eed1e11145951",
-        "version" : "0.1.0"
+        "revision" : "788e4b45805e629304ddeef6f757ae18f13beb28",
+        "version" : "0.2.0"
       }
     },
     {
