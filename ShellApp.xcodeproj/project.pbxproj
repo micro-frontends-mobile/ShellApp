@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5007606283A65840088A722 /* Env in Frameworks */ = {isa = PBXBuildFile; productRef = B5007605283A65840088A722 /* Env */; };
 		B5007608283A669B0088A722 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5007607283A669B0088A722 /* AppRouter.swift */; };
 		B579F3D42838D1A200B54D4A /* ShellAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D32838D1A200B54D4A /* ShellAppApp.swift */; };
 		B579F3D62838D1A200B54D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3D52838D1A200B54D4A /* ContentView.swift */; };
@@ -16,9 +15,9 @@
 		B579F3E52838D1A400B54D4A /* ShellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3E42838D1A400B54D4A /* ShellAppTests.swift */; };
 		B579F3EF2838D1A400B54D4A /* ShellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3EE2838D1A400B54D4A /* ShellAppUITests.swift */; };
 		B579F3F12838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579F3F02838D1A400B54D4A /* ShellAppUITestsLaunchTests.swift */; };
-		B579F3FF2838D2A700B54D4A /* About in Frameworks */ = {isa = PBXBuildFile; productRef = B579F3FE2838D2A700B54D4A /* About */; };
-		B579F42A2838D97400B54D4A /* Browse in Frameworks */ = {isa = PBXBuildFile; productRef = B579F4292838D97400B54D4A /* Browse */; };
 		B579F4662838DE2F00B54D4A /* RestaurantOrder in Frameworks */ = {isa = PBXBuildFile; productRef = B579F4652838DE2F00B54D4A /* RestaurantOrder */; };
+		B58F75EC283BEAF300D934FA /* About in Frameworks */ = {isa = PBXBuildFile; productRef = B58F75EB283BEAF300D934FA /* About */; };
+		B58F75FA283BF72200D934FA /* Browse in Frameworks */ = {isa = PBXBuildFile; productRef = B58F75F9283BF72200D934FA /* Browse */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5007606283A65840088A722 /* Env in Frameworks */,
+				B58F75FA283BF72200D934FA /* Browse in Frameworks */,
+				B58F75EC283BEAF300D934FA /* About in Frameworks */,
 				B579F4662838DE2F00B54D4A /* RestaurantOrder in Frameworks */,
-				B579F42A2838D97400B54D4A /* Browse in Frameworks */,
-				B579F3FF2838D2A700B54D4A /* About in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +153,9 @@
 			);
 			name = ShellApp;
 			packageProductDependencies = (
-				B579F3FE2838D2A700B54D4A /* About */,
-				B579F4292838D97400B54D4A /* Browse */,
 				B579F4652838DE2F00B54D4A /* RestaurantOrder */,
-				B5007605283A65840088A722 /* Env */,
+				B58F75EB283BEAF300D934FA /* About */,
+				B58F75F9283BF72200D934FA /* Browse */,
 			);
 			productName = ShellApp;
 			productReference = B579F3D02838D1A200B54D4A /* ShellApp.app */;
@@ -233,10 +230,10 @@
 			);
 			mainGroup = B579F3C72838D1A200B54D4A;
 			packageReferences = (
-				B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */,
-				B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */,
 				B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */,
-				B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */,
+				B58F75EA283BEAF300D934FA /* XCRemoteSwiftPackageReference "About" */,
+				B58F75F7283BF6A100D934FA /* XCRemoteSwiftPackageReference "Env" */,
+				B58F75F8283BF72200D934FA /* XCRemoteSwiftPackageReference "Browse" */,
 			);
 			productRefGroup = B579F3D12838D1A200B54D4A /* Products */;
 			projectDirPath = "";
@@ -609,30 +606,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/micro-frontends-mobile/Env";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
-			};
-		};
-		B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/micro-frontends-mobile/About";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/micro-frontends-mobile/Browse";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
-			};
-		};
 		B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/micro-frontends-mobile/RestaurantOrder";
@@ -641,28 +614,47 @@
 				minimumVersion = 0.1.0;
 			};
 		};
+		B58F75EA283BEAF300D934FA /* XCRemoteSwiftPackageReference "About" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/About";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		B58F75F7283BF6A100D934FA /* XCRemoteSwiftPackageReference "Env" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/Env";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		B58F75F8283BF72200D934FA /* XCRemoteSwiftPackageReference "Browse" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/micro-frontends-mobile/Browse";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B5007605283A65840088A722 /* Env */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B5007604283A65840088A722 /* XCRemoteSwiftPackageReference "Env" */;
-			productName = Env;
-		};
-		B579F3FE2838D2A700B54D4A /* About */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B579F3FD2838D2A700B54D4A /* XCRemoteSwiftPackageReference "About" */;
-			productName = About;
-		};
-		B579F4292838D97400B54D4A /* Browse */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B579F4282838D97400B54D4A /* XCRemoteSwiftPackageReference "Browse" */;
-			productName = Browse;
-		};
 		B579F4652838DE2F00B54D4A /* RestaurantOrder */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B579F4642838DE2F00B54D4A /* XCRemoteSwiftPackageReference "RestaurantOrder" */;
 			productName = RestaurantOrder;
+		};
+		B58F75EB283BEAF300D934FA /* About */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B58F75EA283BEAF300D934FA /* XCRemoteSwiftPackageReference "About" */;
+			productName = About;
+		};
+		B58F75F9283BF72200D934FA /* Browse */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B58F75F8283BF72200D934FA /* XCRemoteSwiftPackageReference "Browse" */;
+			productName = Browse;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -15,6 +15,8 @@ struct ContentView: View {
 
   init() {
     _ = Env.initialize(router: AppRouter() as Router)
+
+    UITabBar.appearance().barTintColor = UIColor(Env.shared.configuration.tabBarTintColor)
   }
   var body: some View {
     TabView {
@@ -29,6 +31,7 @@ struct ContentView: View {
           Text("Surprise me")
         }
       AboutView()
+        .background(Env.shared.configuration.backgroundColor)
         .tabItem {
           Image(systemName: "person")
           Text("About")
