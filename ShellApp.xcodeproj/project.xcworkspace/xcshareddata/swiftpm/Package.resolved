@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/About",
       "state" : {
-        "revision" : "adc820814a0c196e6c6bed979c6c132e7f59dc6c",
-        "version" : "0.2.0"
+        "revision" : "e96fdbada870a92fccf918b8b250f9c9d4751149",
+        "version" : "0.3.1"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/Browse",
       "state" : {
-        "revision" : "dc66a7eab45b0289ce38ce8aee0fded521c7d1fe",
-        "version" : "0.3.0"
+        "revision" : "a3590f11f00016e94de4fcb0aa193b14dacd9a57",
+        "version" : "0.4.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/Env",
       "state" : {
-        "revision" : "d27992f81097726376bda24cf61a071f15f8594e",
-        "version" : "0.3.1"
+        "revision" : "d55855a004c00dd5d2d3f88e78c77c21da08f6e7",
+        "version" : "0.3.3"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/micro-frontends-mobile/RestaurantOrder",
       "state" : {
-        "revision" : "5002fcb96852d7d8479830bb26f19aebc87a5aea",
-        "version" : "0.3.0"
+        "revision" : "e82e3faa1ccf669f115166aa73e1954dbd228581",
+        "version" : "0.3.1"
       }
     }
   ],

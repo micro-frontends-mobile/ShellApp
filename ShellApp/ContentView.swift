@@ -31,7 +31,6 @@ struct ContentView: View {
           Text("Surprise me")
         }
       AboutView()
-        .background(Env.shared.configuration.backgroundColor)
         .tabItem {
           Image(systemName: "person")
           Text("About")
