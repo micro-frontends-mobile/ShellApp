@@ -19,6 +19,6 @@ class AppRouter: Router {
   }
 
   private func url(_ to: String) -> URL {
-    URL(string: "https://content.demo.microfrontends.com\(to)")!
+    URL(string: "\(Env.shared.configuration.host)\(to)")!
   }
 }
