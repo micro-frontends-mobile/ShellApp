@@ -16,6 +16,12 @@ See more details in this [blog](https://zddhub.com/article/2022/05/25/micro-fron
 - Xcode 13+
 - iOS 15+
 
+## Get started
+
+`open ShellApp/ShellApp.xcodeproj`
+
+And run using Xcode
+
 ## APIs
 
 All APIs come from [micro-frontends-demo/content](https://github.com/micro-frontends-demo/content).
