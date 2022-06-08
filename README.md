@@ -22,8 +22,9 @@ All APIs come from [micro-frontends-demo/content](https://github.com/micro-front
 
 ## Acknowledgments
 
-Huge thanks to Cam Jackson for his article and demo.
-
+Huge thanks to Cam Jackson for his [micro fontends article][micro-frontends] and [demo][micro-frontends-demo].
 
 [shell-app-dark]: https://zddhub.com/assets/images/2022-05-25/shell-app-dark.gif
 [shell-app-light]: https://zddhub.com/assets/images/2022-05-25/shell-app-light.gif
+[micro-frontends-demo]: https://github.com/micro-frontends-demo
+[micro-frontends]: https://martinfowler.com/articles/micro-frontends.html
